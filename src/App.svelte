@@ -42,14 +42,15 @@
 			<div>
 				<select name="Projects" id="Projects">
 					<option value="1"
-						>Methodically Unmethodical by Maxime Pigeon
+						>METHODICALLY UNMETHODICAL by Maxime Pigeon
 					</option>
 					<option value="1"
-						>Reading Shapes, Writing Sculptures by Juliette Duhé</option
+						>READING SHAPES, WRITING SCULPTURES by Juliette Duhé</option
 					>
 					<option value="1"
-						>Building Through the Window by William Couture</option
+						>BUILDING THROUGH THE WINDOW by William Couture</option
 					>
+					<option value="1">About</option>
 				</select>
 				<button on:click={() => (maxime = false)}>-</button>
 				<button on:click={() => (william = true)}>+</button>
@@ -118,14 +119,15 @@
 			<div>
 				<select name="Projects" id="Projects">
 					<option value="1"
-						>Reading Shapes, Writing Sculptures by Juliette Duhé</option
+						>READING SHAPES, WRITING SCULPTURES by Juliette Duhé</option
 					>
 					<option value="1"
-						>Methodically Unmethodical by Maxime Pigeon
+						>Methodically UNMETHODICAL by Maxime Pigeon
 					</option>
 					<option value="1"
-						>Building Through the Window by William Couture</option
+						>BUILDING THROUGH THE WINDOW by William Couture</option
 					>
+					<option value="1">About</option>
 				</select>
 				<button on:click={() => (juliette = false)}>-</button>
 				<button on:click={() => (william = true)}>+</button>
@@ -196,14 +198,15 @@
 			<div>
 				<select name="Projects" id="Projects">
 					<option value="1"
-						>Building Through the Window by William Couture</option
+						>BUILDING THROUGH THE WINDOW by William Couture</option
 					>
 					<option value="1"
-						>Reading Shapes, Writing Sculptures by Juliette Duhé</option
+						>READING SHAPES, WRITING SCULPTURES by Juliette Duhé</option
 					>
 					<option value="1"
-						>Methodically Unmethodical by Maxime Pigeon
+						>METHODICALLY UNMETHODICAL by Maxime Pigeon
 					</option>
+					<option value="1">About</option>
 				</select>
 				<button on:click={() => (william = false)}>-</button>
 				<button on:click={() => (juliette = true)}>+</button>
