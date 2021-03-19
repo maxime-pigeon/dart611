@@ -1,6 +1,4 @@
 <script>
-	import Buttons from "./Buttons.svelte";
-
 	import Pigeon from "./projects/Pigeon.svelte";
 	import Duhe from "./projects/Duhe.svelte";
 	import Couture from "./projects/Couture.svelte";
@@ -9,23 +7,23 @@
 
 	const options = [
 		{
-			title: "Building Through the Window by William Couture",
+			title: "William Couture: BUILDING THROUGH THE WINDOW",
 			component: Couture,
 		},
 		{
-			title: "Reading Shapes, Writing Sculptures by Juliette Duhé",
+			title: "Juliette Duhé: READING SHAPES, WRITING SCULPTURES",
 			component: Duhe,
 		},
 		{
-			title: "Methodically Unmethodically by Maxime Pigeon",
+			title: "Maxime Pigeon: METHODICALLY UNMETHODICALLY",
 			component: Pigeon,
 		},
 		{
-			title: "Inclusive Masks by Larissa Zemke",
+			title: "Larissa Zemke: INCLUSIVE MASKS",
 			component: Zemke,
 		},
 		{
-			title: "About",
+			title: "ABOUT",
 			component: About,
 		},
 	];
@@ -60,7 +58,7 @@
 				<option value={option}>{option.title}</option>
 			{/each}
 		</select>
-		<Buttons />
+		<slot />
 	</div>
 	<svelte:component this={selected.component} />
 </section>
