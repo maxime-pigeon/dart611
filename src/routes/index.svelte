@@ -1,5 +1,5 @@
 <script>
-	import Section from "./components/Section.svelte";
+	import Section from "$lib/Section.svelte";
 
 	$: sectionCount = [{}, {}];
 
@@ -7,8 +7,8 @@
 		sectionCount = [...sectionCount, {}];
 	}
 
-	function removeFromList(index) {
-		sectionCount.splice(index, 1);
+	function removeFromList(i) {
+		sectionCount.splice(i, 1);
 		sectionCount = sectionCount;
 	}
 </script>
@@ -30,7 +30,7 @@
 </style>
 
 <main>
-	{#each sectionCount as item, index}
+	{#each sectionCount as item, index (item)}
 		<Section>
 			{#if sectionCount.length == 1}
 				<button disabled>-</button>
