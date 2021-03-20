@@ -61,6 +61,10 @@
 		nav {
 			width: 100% !important;
 		}
+
+		section {
+			height: auto;
+		}
 	}
 </style>
 
