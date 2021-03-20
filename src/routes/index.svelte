@@ -1,7 +1,7 @@
 <script>
 	import Section from "$lib/Section.svelte";
 
-	$: sectionCount = [{}, {}];
+	$: sectionCount = [{}, {}, {}];
 
 	function addToList() {
 		sectionCount = [...sectionCount, {}];
@@ -26,6 +26,10 @@
 		:global(section + section) {
 			display: none;
 		}
+
+		button {
+			display: none;
+		}
 	}
 </style>
 
@@ -33,9 +37,9 @@
 	{#each sectionCount as item, index (item)}
 		<Section {sectionCount}>
 			{#if sectionCount.length == 1}
-				<button disabled>-</button>
+				<button disabled>×</button>
 			{:else}
-				<button on:click={() => removeFromList(index)}>-</button>
+				<button on:click={() => removeFromList(index)}>×</button>
 			{/if}
 			<button on:click={addToList}>+</button>
 		</Section>

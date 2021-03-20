@@ -56,6 +56,12 @@
 	select {
 		width: 100%;
 	}
+
+	@media only screen and (max-width: 750px) {
+		nav {
+			width: 100% !important;
+		}
+	}
 </style>
 
 <section>
