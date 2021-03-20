@@ -1,4 +1,6 @@
 <script>
+	import { browser } from "$app/env";
+
 	import Section from "$lib/Section.svelte";
 
 	$: sectionCount = [{}, {}, {}];
@@ -33,15 +35,17 @@
 	}
 </style>
 
-<main>
-	{#each sectionCount as item, index (item)}
-		<Section {sectionCount}>
-			{#if sectionCount.length == 1}
-				<button disabled>×</button>
-			{:else}
-				<button on:click={() => removeFromList(index)}>×</button>
-			{/if}
-			<button on:click={addToList}>+</button>
-		</Section>
-	{/each}
-</main>
+{#if browser}
+	<main>
+		{#each sectionCount as item, index (item)}
+			<Section {sectionCount}>
+				{#if sectionCount.length == 1}
+					<button disabled>×</button>
+				{:else}
+					<button on:click={() => removeFromList(index)}>×</button>
+				{/if}
+				<button on:click={addToList}>+</button>
+			</Section>
+		{/each}
+	</main>
+{/if}
