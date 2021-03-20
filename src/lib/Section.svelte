@@ -55,6 +55,7 @@
 
 	select {
 		width: 100%;
+		font: inherit;
 	}
 
 	@media only screen and (max-width: 750px) {

@@ -148,6 +148,11 @@ img {
 	line-height: 0;
 }
 
+button,
+select {
+	margin: 1.5px;
+}
+
 p + p {
 	margin-top: 1rem;
 }
