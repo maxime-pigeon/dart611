@@ -50,7 +50,7 @@
 	}
 
 	div {
-		padding: 1rem;
+		padding: 2.5rem 1rem;
 	}
 
 	select {

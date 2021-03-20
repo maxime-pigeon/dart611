@@ -1,6 +1,6 @@
 <style>
 	p:first-of-type {
-		margin-top: 2rem;
+		margin-top: 1rem;
 	}
 </style>
 
