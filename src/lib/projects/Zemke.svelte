@@ -1,6 +1,3 @@
-<style>
-</style>
-
 <img src="images/zemke/4.png" alt="4" />
 <p>
 	In the context of the current pandemic and Quebec’s new health regulations

@@ -5,6 +5,8 @@
 	import Zemke from "./projects/Zemke.svelte";
 	import About from "./projects/About.svelte";
 
+	export let sectionCount;
+
 	const options = [
 		{
 			title: "William Couture: BUILDING THROUGH THE WINDOW",
@@ -35,15 +37,20 @@
 	section {
 		width: 100%;
 		height: 100vh;
-		padding: 1rem;
 		box-sizing: border-box;
 		overflow-y: scroll;
 	}
 
-	div {
+	nav {
 		display: flex;
-		position: sticky;
+		position: fixed;
 		top: 0;
+		box-sizing: border-box;
+		padding: 0.5rem;
+	}
+
+	div {
+		padding: 1rem;
 	}
 
 	select {
@@ -52,13 +59,15 @@
 </style>
 
 <section>
-	<div>
+	<nav style="width: calc(100%/{sectionCount.length})">
 		<select bind:value={selected}>
 			{#each options as option}
 				<option value={option}>{option.title}</option>
 			{/each}
 		</select>
 		<slot />
+	</nav>
+	<div>
+		<svelte:component this={selected.component} />
 	</div>
-	<svelte:component this={selected.component} />
 </section>

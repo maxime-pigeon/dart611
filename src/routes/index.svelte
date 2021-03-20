@@ -31,7 +31,7 @@
 
 <main>
 	{#each sectionCount as item, index (item)}
-		<Section>
+		<Section {sectionCount}>
 			{#if sectionCount.length == 1}
 				<button disabled>-</button>
 			{:else}
