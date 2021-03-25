@@ -151,6 +151,7 @@ img {
 button,
 select {
 	margin: 2px;
+	display: inherit;
 }
 
 p + p {
