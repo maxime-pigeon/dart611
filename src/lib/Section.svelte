@@ -1,6 +1,6 @@
 <script>
-	import Pigeon from "./projects/Pigeon.svelte";
-	import Duhe from "./projects/Duhe.svelte";
+	import Pigeon from "./projects/pigeon/Pigeon.svelte";
+	import Duhe from "./projects/duhe/Duhe.svelte";
 	import Couture from "./projects/Couture.svelte";
 	import Zemke from "./projects/Zemke.svelte";
 	import About from "./projects/About.svelte";

@@ -1,4 +1,8 @@
-<img src="images/pigeon/1.gif" alt="1" />
+<script>
+	import Image from "./1.gif";
+</script>
+
+<img src={Image} alt="1" />
 <p>
 	The German philosopher Theodor W. Adorno defines the essay genre as an
 	unmethodical method. The essay, he writes, takes the arena of intellectual

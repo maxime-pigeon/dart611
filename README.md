@@ -1,39 +1,31 @@
-# create-svelte
+# DART611 Website
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
+![screenshot](https://user-images.githubusercontent.com/37006580/113206981-18679000-923e-11eb-88b7-5f7890e631d0.png "Website screenshot")
 
-## Creating a project
+Winter 2021 exhibition website for DART611: Interdisciplinary Practices in Design. See it [here](https://dart611expo.netlify.app).
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Instructions
 
-```bash
-# create a new project in the current directory
-npm init svelte@next
+You need to upload 3 things in [this Google Drive](https://drive.google.com/drive/folders/1_h9VrrSlnyya_l3Eez5o_jR_GwNWEhYf) **by April 13**:
 
-# create a new project in my-app
-npm init svelte@next my-app
-```
+1. Mockup of how you want your column to look like
+2. Description
+3. Folder with your images/videos
 
-> Note: the `@next` is temporary
+### 1. Mockup
 
-## Developing
+The website is designed such that each student gets their own "column". Think of it as your own exhibit wall. But keep in mind that the column's width depends on the number of columns the user chooses to display.
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+I need you to show me how you want your column to look like. A simple Google Docs will do. In short, I want to know where you want your images/videos: all at the top, between paragraphs, etc. [Example](https://docs.google.com/document/d/1aCufTuchrPEOY7mQda_BspzOxYeGWkdO-jRHo39OA_U/edit).
 
-```bash
-npm run dev
+### 2. Description
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+A separate Google Docs with the textual description of your work. 200–500 words. [Example](https://docs.google.com/document/d/1yHUYu0JEjeNIWluX51YPwkM8oTGJsU5-iXbqzVP7vxQ/edit).
 
-## Building
+### 3. Media folder
 
-Svelte apps are built with _adapters_, which optimise your project for deployment to different environments, like [Begin](https://begin.com), [Netlify](https://www.netlify.com), [Vercel](https://vercel.com) and so on. (You can also create your own adapter — instructions TODO.)
+A folder with all your images, videos, gifs, etc.
 
-By default, `npm run build` will generate a Node app that you can run with `node build`. To use a different adapter, install it and update your `svelte.config.cjs` accordingly. The following official adapters are available:
-
-- [@sveltejs/adapter-node](https://github.com/sveltejs/kit/tree/master/packages/adapter-node)
-- [@sveltejs/adapter-static](https://github.com/sveltejs/kit/tree/master/packages/adapter-static)
-- [@sveltejs/adapter-netlify](https://github.com/sveltejs/kit/tree/master/packages/adapter-netlify)
-- ...more soon
+-   Image: JPEG or PNG, approx. 2000px wide
+-   Video: MP4, M4A or WEBM, 1080px
+-   GIF: GIF or WEBP, approx 1080px

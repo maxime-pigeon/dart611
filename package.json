@@ -17,5 +17,8 @@
 	"type": "module",
 	"engines": {
 		"node": ">= 12.17.0"
+	},
+	"dependencies": {
+		"vite-imagetools": "^3.4.0-next.1"
 	}
 }

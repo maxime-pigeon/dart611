@@ -1,4 +1,8 @@
-<img src="4.jpg" alt="2" />
+<script>
+	import Image from "./1.jpg?width=300;400;600&webp&jpg&srcset";
+</script>
+
+<img srcset={Image} alt="1" />
 <p>
 	Creating a typeface on a computer screen can sometimes limit creativity. The
 	digital work space, the white window of the software, the two-dimensional
