@@ -1,7 +1,7 @@
 <script>
 	import { browser } from "$app/env";
 
-	import Section from "$lib/Section.svelte";
+	import Section from "$lib/components/Section.svelte";
 
 	$: sectionCount = [{}, {}, {}];
 

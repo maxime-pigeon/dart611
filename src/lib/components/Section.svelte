@@ -1,9 +1,9 @@
 <script>
-	import Pigeon from "./projects/pigeon/Pigeon.svelte";
-	import Duhe from "./projects/duhe/Duhe.svelte";
-	import Couture from "./projects/Couture.svelte";
-	import Zemke from "./projects/Zemke.svelte";
-	import About from "./projects/About.svelte";
+	import Pigeon from "../projects/pigeon/Pigeon.svelte";
+	import Duhe from "../projects/duhe/Duhe.svelte";
+	import Couture from "../projects/couture/Couture.svelte";
+	import Zemke from "../projects/zemke/Zemke.svelte";
+	import About from "../projects/About.svelte";
 
 	export let sectionCount;
 
