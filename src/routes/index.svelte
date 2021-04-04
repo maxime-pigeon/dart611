@@ -34,14 +34,14 @@
 	}
 
 	button:first-of-type {
-		background-image: url("close.svg");
+		background-image: url("/close.svg");
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: 7px;
 	}
 
 	button:last-of-type {
-		background-image: url("plus.svg");
+		background-image: url("/plus.svg");
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: 8px;

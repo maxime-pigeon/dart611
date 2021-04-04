@@ -50,7 +50,7 @@
 	}
 
 	select {
-		background-image: url("arrows.svg");
+		background-image: url("/arrows.svg");
 		background-position: center right;
 		background-repeat: no-repeat;
 		background-size: 18px 10px;
