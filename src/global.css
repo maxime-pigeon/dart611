@@ -9,6 +9,10 @@ body {
 	line-height: 1.35;
 }
 
+a {
+	color: blue;
+}
+
 img {
 	box-sizing: border-box;
 	width: 100%;

@@ -17,7 +17,9 @@
 	quite content to end his paragraph with the now famous oxymoronic formula, a
 	formula that means both everything and nothing, and on which desperate
 	graduate students will write countless theses, guaranteeing his eternal
-	popularity as measured by Google Scholar citations rankings.
+	popularity as measured by <a href="https://scholar.google.ca"
+		>Google Scholar</a
+	> citations rankings.
 </p>
 <p>
 	Well, this project is an attempt to weave (or unweave?) my own carpet, with

@@ -56,7 +56,7 @@
 		background-size: 18px 10px;
 		width: 100%;
 		font: inherit;
-		padding: 0 18px 0 5px;
+		padding: 0 16px 0 5px;
 	}
 
 	@media only screen and (max-width: 750px) {
