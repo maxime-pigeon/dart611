@@ -1,6 +1,6 @@
 # DART611 Website
 
-![screenshot](https://user-images.githubusercontent.com/37006580/113206981-18679000-923e-11eb-88b7-5f7890e631d0.png "Website screenshot")
+![screenshot](https://user-images.githubusercontent.com/37006580/113519156-840c6e80-9558-11eb-88d0-dd99930dafa7.png "Website screenshot")
 
 Winter 2021 exhibition website for DART611: Interdisciplinary Practices in Design. See it [here](https://dart611expo.netlify.app).
 
