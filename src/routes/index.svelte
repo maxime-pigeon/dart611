@@ -27,6 +27,7 @@
 		justify-content: center;
 		align-items: center;
 		width: 1.5rem;
+		flex-shrink: 0;
 	}
 
 	button:active {
