@@ -24,10 +24,6 @@
 			title: "Larissa Zemke: INCLUSIVE MASKS",
 			component: Zemke,
 		},
-		{
-			title: "ABOUT",
-			component: About,
-		},
 	];
 
 	let selected = options[Math.floor(Math.random() * options.length)];
@@ -54,8 +50,13 @@
 	}
 
 	select {
+		background-image: url("arrows.svg");
+		background-position: center right;
+		background-repeat: no-repeat;
+		background-size: 18px 10px;
 		width: 100%;
 		font: inherit;
+		padding: 0 18px 0 5px;
 	}
 
 	@media only screen and (max-width: 750px) {
@@ -72,9 +73,14 @@
 <section>
 	<nav style="width: calc(100%/{sectionCount.length})">
 		<select bind:value={selected}>
-			{#each options as option}
-				<option value={option}>{option.title}</option>
-			{/each}
+			<optgroup label="DART611: Interdisciplinary Practices in Design">
+				<option value={{ component: About }}>ABOUT</option>
+			</optgroup>
+			<optgroup label="Projects">
+				{#each options as option}
+					<option value={option}>{option.title}</option>
+				{/each}
+			</optgroup>
 		</select>
 		<slot />
 	</nav>
