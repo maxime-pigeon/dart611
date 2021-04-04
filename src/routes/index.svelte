@@ -26,7 +26,7 @@
 		display: none;
 		justify-content: center;
 		align-items: center;
-		width: 1.75rem;
+		width: 1.5rem;
 	}
 
 	button:active {
