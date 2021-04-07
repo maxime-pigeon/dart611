@@ -50,14 +50,11 @@
 	}
 
 	select {
-		background-image: url("/arrows.svg");
-		background-position: center right;
-		background-repeat: no-repeat;
-		background-size: 19px 11px;
 		width: 100%;
 		font: inherit;
-		padding: 0 20px 0 0.5rem;
-		line-height: 1.2;
+		padding: 0 0.5rem;
+		border-radius: 2px;
+		box-shadow: 0 0 1px 0.5px rgba(0, 0, 0, 0.1);
 	}
 
 	@media only screen and (max-width: 750px) {
