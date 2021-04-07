@@ -3,7 +3,7 @@
 
 	import Section from "$lib/components/Section.svelte";
 
-	$: sectionCount = [{}, {}, {}];
+	$: sectionCount = [{}, {}, {}, {}];
 
 	function addToList() {
 		sectionCount = [...sectionCount, {}];
