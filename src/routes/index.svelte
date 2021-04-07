@@ -23,7 +23,7 @@
 	button {
 		font: inherit;
 		line-height: 1.2;
-		display: none;
+		display: flex;
 		justify-content: center;
 		align-items: center;
 		width: 1.5rem;
@@ -34,22 +34,18 @@
 		background: gainsboro;
 	}
 
-	button:first-of-type {
+	button:last-of-type {
 		background-image: url("/close.svg");
 		background-position: center;
 		background-repeat: no-repeat;
-		background-size: 7px;
+		background-size: 9px;
 	}
 
-	button:last-of-type {
+	button:first-of-type {
 		background-image: url("/plus.svg");
 		background-position: center;
 		background-repeat: no-repeat;
-		background-size: 8px;
-	}
-
-	:global(section):hover button {
-		display: inherit;
+		background-size: 10px;
 	}
 
 	@media only screen and (max-width: 750px) {
@@ -67,12 +63,12 @@
 	<main>
 		{#each sectionCount as item, index (item)}
 			<Section {sectionCount}>
+				<button on:click={addToList} />
 				{#if sectionCount.length == 1}
 					<button disabled />
 				{:else}
 					<button on:click={() => removeFromList(index)} />
 				{/if}
-				<button on:click={addToList} />
 			</Section>
 		{/each}
 	</main>

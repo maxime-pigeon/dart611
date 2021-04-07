@@ -53,10 +53,11 @@
 		background-image: url("/arrows.svg");
 		background-position: center right;
 		background-repeat: no-repeat;
-		background-size: 18px 10px;
+		background-size: 19px 11px;
 		width: 100%;
 		font: inherit;
-		padding: 0 16px 0 5px;
+		padding: 0 20px 0 0.5rem;
+		line-height: 1.2;
 	}
 
 	@media only screen and (max-width: 750px) {
@@ -73,13 +74,13 @@
 <section>
 	<nav style="width: calc(100%/{sectionCount.length})">
 		<select bind:value={selected}>
-			<optgroup label="DART611: Interdisciplinary Practices in Design">
-				<option value={{ component: About }}>ABOUT</option>
-			</optgroup>
 			<optgroup label="Projects">
 				{#each options as option}
 					<option value={option}>{option.title}</option>
 				{/each}
+			</optgroup>
+			<optgroup label="DART611: Interdisciplinary Practices in Design">
+				<option value={{ component: About }}>ABOUT</option>
 			</optgroup>
 		</select>
 		<slot />
