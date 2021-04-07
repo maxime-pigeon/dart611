@@ -32,6 +32,7 @@ select {
 	display: inherit;
 	cursor: pointer;
 	height: 2rem;
+	outline: none;
 }
 
 p + p {
