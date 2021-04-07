@@ -28,7 +28,7 @@
 		display: none;
 		align-items: center;
 		justify-content: center;
-		width: 2rem;
+		width: 1.75rem;
 		flex-shrink: 0;
 		padding: 0;
 		background: transparent;
@@ -37,10 +37,6 @@
 
 	:global(section):hover button {
 		display: flex;
-	}
-
-	button:active {
-		background: gainsboro;
 	}
 
 	button:first-of-type:hover svg circle {

@@ -57,6 +57,10 @@
 		box-shadow: 0 0 1px 0.5px rgba(0, 0, 0, 0.1);
 	}
 
+	select:hover {
+		background: whitesmoke;
+	}
+
 	@media only screen and (max-width: 750px) {
 		nav {
 			width: 100% !important;
