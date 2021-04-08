@@ -34,20 +34,12 @@
 		background: transparent;
 	}
 
+	button:hover svg circle {
+		fill: lightgray;
+	}
+
 	:global(section):hover button {
 		display: flex;
-	}
-
-	button:first-of-type:hover svg circle {
-		fill: limegreen;
-	}
-
-	button:last-of-type:hover circle {
-		fill: tomato;
-	}
-
-	button:hover path {
-		fill: white;
 	}
 
 	@media only screen and (max-width: 750px) {
