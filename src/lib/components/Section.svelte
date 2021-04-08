@@ -54,11 +54,11 @@
 		font: inherit;
 		padding: 0 0.5rem;
 		border-radius: 2px;
-		box-shadow: 0 0 1px 0.5px rgba(0, 0, 0, 0.1);
+		background: gainsboro;
 	}
 
 	select:hover {
-		background: whitesmoke;
+		background: lightgray;
 	}
 
 	@media only screen and (max-width: 750px) {
