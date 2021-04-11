@@ -43,6 +43,7 @@
 		top: 0;
 		box-sizing: border-box;
 		padding: 0.5rem;
+		background: white;
 	}
 
 	div {
@@ -52,13 +53,18 @@
 	select {
 		width: 100%;
 		font: inherit;
-		padding: 0 0.5rem;
+		padding: 0 1.75rem 0 0.5rem;
 		border-radius: 2px;
-		background: gainsboro;
+		background: transparent;
+		background-image: url("/chevron.svg");
+		background-position-y: center;
+		background-position-x: calc(100% - 6px);
+		background-repeat: no-repeat;
+		background-size: 13px;
 	}
 
 	select:hover {
-		background: lightgray;
+		background-color: whitesmoke;
 	}
 
 	@media only screen and (max-width: 750px) {
