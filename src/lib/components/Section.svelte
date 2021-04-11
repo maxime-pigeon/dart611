@@ -58,7 +58,7 @@
 		background: transparent;
 		background-image: url("/chevron.svg");
 		background-position-y: center;
-		background-position-x: calc(100% - 6px);
+		background-position-x: calc(100% - 5px);
 		background-repeat: no-repeat;
 		background-size: 13px;
 	}
