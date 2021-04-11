@@ -1,30 +1,58 @@
 <script>
-	import Image from "./1.jpg?width=300;400;600&webp&jpg&srcset";
+	import Image1 from "./1.png?width=300;400;600&webp&jpg&srcset";
+	import Image2 from "./2.png?width=300;400;600&webp&jpg&srcset";
+	import Image3 from "./3.png?width=300;400;600&webp&jpg&srcset";
+	import Image4 from "./4.png?width=300;400;600&webp&jpg&srcset";
+	import Image5 from "./5.gif";
 </script>
 
-<img srcset={Image} alt="1" />
+<img srcset={Image4} alt="4" />
 <p>
 	Creating a typeface on a computer screen can sometimes limit creativity. The
-	digital work space, the white window of the software, the two-dimensional
+	digital workspace, the white window of the software, the two-dimensional
 	shaping, the grid proportions, and the basic tracing tools all constitute
 	elements which influence the conception of a letter. Rare are the designers
 	who leave these optimized digital tools, to bring some materiality and
 	reality in their work process.
 </p>
 <p>
-	A good example would be the approach of Karl Nawrot, a French designer who
-	“thinks like an architect.” He develops experimental type systems and tools
-	to produce innovative and enigmatic shapes. By leaving standards type design
-	tools and environment, he sets his own constraints. For a moment, he forgets
-	the letter, its origin and its heritage, and develops unexpected forms. This
-	approach brings uniqueness to his work, and stands out from the type design
-	landscape.
+	Instead of considering type design a drawing of the inside and outside lines
+	of a character, I was interested to think the shape through sculptural codes
+	and bring some material qualities to them such as gravity, bending, or
+	light. The aim of this approach is to actualize my perception of the shape
+	of a letter, and consider the character—not as a legible sign—but as an
+	abstract form to find and experiment.
 </p>
 <p>
-	According to the field of sculpture, the French type designer Morgane Van
-	Torre included in a way, some materiality in her work process, by taking
-	inspiration in sculptural shapes of Henry Moore, Hans Arp and Max Bill to
-	realize a typeface. Despite this intention, the form wasn’t found by the
-	physical manipulation of the material and this is not an approach I would
-	like to consider for the project Reading Shapes, Writing Sculptures.
+	This type design research project takes inspiration from the American
+	sculptor Richard Serra’s verb list compilation built between 1967 and 1968,
+	published in the journal Avalanche in 1971. It represents 107 words, and it
+	consists of a series of “actions to relate to oneself, material, place, and
+	process.”
 </p>
+<p>
+	The project is framed by a selection of four verbs of the list—to stretch,
+	to pair, of tension, to bounce—and aims to exploit the potential of the
+	material and physical properties for the creation of a typeface.
+</p>
+<img srcset={Image1} alt="1" />
+<img srcset={Image2} alt="2" />
+<img srcset={Image3} alt="3" />
+<p>
+	The documentation of the process is displayed on three posters, each one
+	representing a specific work step. The first consists in the manipulation of
+	physical objects. The second reports the previous step, but in
+	two-dimensional abstract visuals. The last one shows the type characters as
+	a logical continuation of the sequence.
+</p>
+<p>
+	Revisiting the work environment and experimenting with tangible objects
+	permitted producing expressive shapes, and gave a strong personality to the
+	letters.
+</p>
+<p>
+	<a href="https://julietteduhe.com/">https://julietteduhe.com/</a><br /><a
+		href="https://www.instagram.com/juliette.duhe/?hl=en">@juliette.duhe</a
+	>
+</p>
+<img src={Image5} alt="5" />
