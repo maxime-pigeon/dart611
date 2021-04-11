@@ -28,10 +28,14 @@
 		display: none;
 		align-items: center;
 		justify-content: center;
-		width: 23px;
+		width: 24px;
 		flex-shrink: 0;
 		padding: 0;
 		background: transparent;
+	}
+
+	button:last-of-type {
+		margin-right: 2px;
 	}
 
 	button:hover svg circle {
