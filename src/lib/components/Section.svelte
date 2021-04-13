@@ -3,6 +3,8 @@
 	import Duhe from "../projects/duhe/Duhe.svelte";
 	import Couture from "../projects/couture/Couture.svelte";
 	import Zemke from "../projects/zemke/Zemke.svelte";
+	import Kamal from "../projects/kamal/kamal.svelte";
+
 	import About from "../projects/About.svelte";
 
 	export let sectionCount;
@@ -23,6 +25,10 @@
 		{
 			title: "Larissa Zemke: INCLUSIVE MASKS",
 			component: Zemke,
+		},
+		{
+			title: "Dina Kamal: THE VALUE OF NATURE",
+			component: Kamal,
 		},
 	];
 
