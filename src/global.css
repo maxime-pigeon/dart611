@@ -9,13 +9,13 @@ body {
 }
 
 a {
-	color: blue;
+	color: black;
 }
 
 img {
 	box-sizing: border-box;
 	width: 100%;
-	margin: 1rem auto;
+	margin: 2rem auto;
 	line-height: 0;
 	position: relative;
 }
@@ -42,10 +42,10 @@ p + p {
 	margin-top: 1rem;
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
 	width: 1px;
 }
 
 ::-webkit-scrollbar-thumb {
 	background: black;
-}
+} */
