@@ -1,6 +1,6 @@
 <style>
 	p:first-of-type {
-		margin-top: 2rem;
+		margin-top: 1rem;
 	}
 </style>
 
@@ -24,8 +24,8 @@
 	was much discussion of kombucha, plants, fonts, and the difficulties of accessing
 	materials and processes during the pandemic. We shared resources and insights
 	from our various design disciplines; spanning architecture, fashion, textiles,
-	interior design, graphic design, landscape architecture, publishing, UX design,
-	gaming, and product design.
+	interior design, graphic design, landscape architecture, publishing, interaction
+	design, gaming, and product design.
 </p>
 
 <p>
