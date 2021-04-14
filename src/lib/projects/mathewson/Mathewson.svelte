@@ -9,6 +9,14 @@
 	}
 </style>
 
+<video controls>
+	<source
+		src="/mathewson/VIDEO_amathewson_tinkermods_04xx.MP4"
+		type="video/mp4"
+	/>
+	<track kind="captions" />
+</video>
+
 <p>
 	I am a tinkerer of ideas and methods. I seek serendipity through chance and
 	experimentation with low-threshold technologies and critical thinking. I
@@ -50,11 +58,3 @@
 	with the creative technologies they use and how this relates to their
 	mindset towards learning.
 </p>
-
-<video controls>
-	<source
-		src="/mathewson/VIDEO_amathewson_tinkermods_04xx.MP4"
-		type="video/mp4"
-	/>
-	<track kind="captions" />
-</video>
