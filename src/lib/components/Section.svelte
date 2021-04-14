@@ -28,7 +28,7 @@
 			component: Pigeon,
 		},
 		{
-			title: "Larissa Zemke: INCLUSIVE MASKS",
+			title: "Larissa Zemke: CARING MASKS",
 			component: Zemke,
 		},
 		{

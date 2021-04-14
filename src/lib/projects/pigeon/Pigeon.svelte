@@ -1,54 +1,16 @@
 <script>
+	import Slider from "../../components/Slider.svelte";
+
 	import Image1 from "./1.jpg?width=600;1200&webp&jpg&srcset";
 	import Image2 from "./2.jpg?width=600;1200&webp&jpg&srcset";
 	import Image3 from "./3.jpg?width=600;1200&webp&jpg&srcset";
 	import Image4 from "./4.jpg?width=600;1200&webp&jpg&srcset";
 	import Image5 from "./5.jpg?width=600;1200&webp&jpg&srcset";
 
-	let m = 0;
-	let w;
-	let div;
-	let divX;
-
-	function handleMousemove(event) {
-		divX = div.getBoundingClientRect().x;
-		m = event.clientX - divX;
-	}
-
-	$: p = Math.round((m / w) * 100);
+	const images = [Image1, Image2, Image3, Image4, Image5];
 </script>
 
-<style>
-	div {
-		width: 100%;
-		position: relative;
-		margin: 1rem 0;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-
-	img {
-		visibility: hidden;
-		margin: 0;
-	}
-
-	img + img {
-		position: absolute;
-	}
-
-	.active {
-		visibility: visible;
-	}
-</style>
-
-<div on:mousemove={handleMousemove} bind:clientWidth={w} bind:this={div}>
-	<img srcset={Image1} alt="1" class:active={p <= 20} />
-	<img srcset={Image2} alt="1" class:active={p > 20 && p <= 40} />
-	<img srcset={Image3} alt="1" class:active={p > 40 && p <= 60} />
-	<img srcset={Image4} alt="1" class:active={p > 60 && p <= 80} />
-	<img srcset={Image5} alt="1" class:active={p > 80} />
-</div>
+<Slider {images} />
 
 <p>
 	The German philosopher Theodor W. Adorno defines the essay genre as an

@@ -1,4 +1,6 @@
 <script>
+	import Slider from "../../components/Slider.svelte";
+
 	import GIF from "./modules.webp";
 	import Banner from "./banner.png?width=600;1200&webp&jpg&srcset";
 	import Image1 from "./1.jpg?width=600;1200&webp&jpg&srcset";
@@ -10,42 +12,17 @@
 	import Image7 from "./7.jpg?width=600;1200&webp&jpg&srcset";
 	import Image8 from "./8.jpg?width=600;1200&webp&jpg&srcset";
 
-	let m = 0;
-	let w;
-	let div;
-	let divX;
-
-	function handleMousemove(event) {
-		divX = div.getBoundingClientRect().x;
-		m = event.clientX - divX;
-	}
-
-	$: p = Math.round((m / w) * 100);
+	const images = [
+		Image1,
+		Image2,
+		Image3,
+		Image4,
+		Image5,
+		Image6,
+		Image7,
+		Image8,
+	];
 </script>
-
-<style>
-	div {
-		width: 100%;
-		position: relative;
-		margin: 1rem 0;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-
-	div img {
-		visibility: hidden;
-		margin: 0;
-	}
-
-	img + img {
-		position: absolute;
-	}
-
-	.active {
-		visibility: visible;
-	}
-</style>
 
 <img src={GIF} alt="GIF" />
 
@@ -79,40 +56,7 @@
 	and creative interventions with technology in learning environments.
 </p>
 
-<div on:mousemove={handleMousemove} bind:clientWidth={w} bind:this={div}>
-	<img srcset={Image1} alt="1" class:active={p <= 100 / 8} />
-	<img
-		srcset={Image2}
-		alt="1"
-		class:active={p > 100 / 8 && p <= (100 / 8) * 2}
-	/>
-	<img
-		srcset={Image3}
-		alt="1"
-		class:active={p > (100 / 8) * 2 && p <= (100 / 8) * 3}
-	/>
-	<img
-		srcset={Image4}
-		alt="1"
-		class:active={p > (100 / 8) * 3 && p <= (100 / 8) * 4}
-	/>
-	<img
-		srcset={Image5}
-		alt="1"
-		class:active={p > (100 / 8) * 4 && p <= (100 / 8) * 5}
-	/>
-	<img
-		srcset={Image6}
-		alt="1"
-		class:active={p > (100 / 8) * 5 && p <= (100 / 8) * 6}
-	/>
-	<img
-		srcset={Image7}
-		alt="1"
-		class:active={p > (100 / 8) * 6 && p <= (100 / 8) * 7}
-	/>
-	<img srcset={Image8} alt="1" class:active={p > (100 / 8) * 7} />
-</div>
+<Slider {images} />
 
 <p>
 	I believe that the tools and spaces situated in our learning experiences
