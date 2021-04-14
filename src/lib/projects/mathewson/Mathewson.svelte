@@ -1,5 +1,4 @@
 <script>
-	import Image1 from "./amathewson_tinkermods_01.jpg?width=600;1200&webp&jpg&srcset";
 	import Image2 from "./amathewson_tinkermods_02.png?width=600;1200&webp&jpg&srcset";
 	import Image3 from "./amathewson_tinkermods_03.png?width=600;1200&webp&jpg&srcset";
 </script>
@@ -9,8 +8,6 @@
 		width: 100%;
 	}
 </style>
-
-<img srcset={Image1} alt="Image1" />
 
 <p>
 	I am a tinkerer of ideas and methods. I seek serendipity through chance and
