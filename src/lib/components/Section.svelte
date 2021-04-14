@@ -3,13 +3,18 @@
 	import Duhe from "../projects/duhe/Duhe.svelte";
 	import Couture from "../projects/couture/Couture.svelte";
 	import Zemke from "../projects/zemke/Zemke.svelte";
-	import Kamal from "../projects/kamal/kamal.svelte";
+	import Kamal from "../projects/kamal/Kamal.svelte";
+	import Mathewson from "../projects/mathewson/Mathewson.svelte";
 
 	import About from "../projects/About.svelte";
 
 	export let sectionCount;
 
 	const options = [
+		{
+			title: "Alec Mathewson: CUT, CREATE, TRIANGULATE",
+			component: Mathewson,
+		},
 		{
 			title: "William Couture: BUILDING THROUGH THE WINDOW",
 			component: Couture,

@@ -12,7 +12,8 @@ a {
 	color: black;
 }
 
-img {
+img,
+video {
 	box-sizing: border-box;
 	width: 100%;
 	margin: 1rem auto;
