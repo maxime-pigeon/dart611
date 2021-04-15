@@ -5,12 +5,17 @@
 	import Image2 from "./2.png?width=600;1200&jpg&srcset";
 	import Image3 from "./3.png?width=600;1200&jpg&srcset";
 	import Image4 from "./4.png?width=600;1200&jpg&srcset";
-	import Image5 from "./5.gif";
+	import GIF from "./5.webp";
+	import GIF2 from "./5.gif";
 
 	const images = [Image1, Image2, Image3, Image4];
 </script>
 
-<img src={Image5} alt="5" />
+<picture>
+	<source srcset={GIF} type="image/webp" />
+	<source srcset={GIF2} type="image/gif" />
+	<img src={GIF2} alt="GIF" />
+</picture>
 <p>
 	Creating a typeface on a computer screen can sometimes limit creativity. The
 	digital workspace, the white window of the software, the two-dimensional

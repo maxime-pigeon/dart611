@@ -25,7 +25,11 @@
 	];
 </script>
 
-<img src={GIF2} srcset={GIF} alt="GIF" />
+<picture>
+	<source srcset={GIF} type="image/webp" />
+	<source srcset={GIF2} type="image/gif" />
+	<img src={GIF2} alt="GIF" />
+</picture>
 
 <p>
 	I am a tinkerer of ideas and methods. I seek serendipity through chance and
