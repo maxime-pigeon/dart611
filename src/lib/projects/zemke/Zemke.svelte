@@ -1,16 +1,16 @@
 <script>
 	import Slider from "../../components/Slider.svelte";
 
-	import Image1 from "./1.jpeg?width=600;1200&webp&jpg&srcset";
-	import Image2 from "./2.jpeg?width=600;1200&webp&jpg&srcset";
-	import Image3 from "./3.jpg?width=600;1200&webp&jpg&srcset";
-	import Image4 from "./4.jpeg?width=600;1200&webp&jpg&srcset";
-	import Image5 from "./5.jpeg?width=600;1200&webp&jpg&srcset";
-	import Image6 from "./6.jpeg?width=600;1200&webp&jpg&srcset";
-	import Image8 from "./8.jpeg?width=600;1200&webp&jpg&srcset";
-	import Image9 from "./9.jpg?width=600;1200&webp&jpg&srcset";
-	import Image10 from "./10.jpeg?width=600;1200&webp&jpg&srcset";
-	import Image11 from "./11.jpeg?width=600;1200&webp&jpg&srcset";
+	import Image1 from "./01.jpg?width=600;1200&webp&jpg&srcset";
+	import Image2 from "./02.jpg?width=600;1200&webp&jpg&srcset";
+	import Image3 from "./03.jpg?width=600;1200&webp&jpg&srcset";
+	import Image4 from "./04.jpg?width=600;1200&webp&jpg&srcset";
+	import Image5 from "./05.jpg?width=600;1200&webp&jpg&srcset";
+	import Image6 from "./06.jpg?width=600;1200&webp&jpg&srcset";
+	import Image8 from "./08.jpg?width=600;1200&webp&jpg&srcset";
+	import Image9 from "./09.jpg?width=600;1200&webp&jpg&srcset";
+	import Image10 from "./010.jpg?width=600;1200&webp&jpg&srcset";
+	import Image11 from "./011.jpg?width=600;1200&webp&jpg&srcset";
 
 	const images = [Image2, Image3, Image10, Image8, Image9, Image11];
 	const images2 = [Image4, Image5, Image6];
