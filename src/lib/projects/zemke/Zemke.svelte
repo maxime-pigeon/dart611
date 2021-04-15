@@ -13,9 +13,8 @@
 	import Image10 from "./10.jpeg?width=600;1200&webp&jpg&srcset";
 	import Image11 from "./11.jpeg?width=600;1200&webp&jpg&srcset";
 
-	const images = [Image2, Image3, Image10];
+	const images = [Image2, Image3, Image10, Image8, Image9, Image11];
 	const images2 = [Image4, Image5, Image6];
-	const images3 = [Image8, Image9, Image11];
 </script>
 
 <img srcset={Image1} alt="image1" />
@@ -83,8 +82,6 @@
 	us create more sustainable and meaningful relationships with the textiles in
 	our lives. And, while we’re at it, let’s have fun and stay stylish.
 </p>
-
-<Slider images={images3} />
 
 <!-- <p>
 	<a href="mailto:larissa.zemke@gmail.com">larissa.zemke@gmail.com</a>
