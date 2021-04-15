@@ -7,7 +7,6 @@
 	import Image4 from "./4.jpeg?width=600;1200&webp&jpg&srcset";
 	import Image5 from "./5.jpeg?width=600;1200&webp&jpg&srcset";
 	import Image6 from "./6.jpeg?width=600;1200&webp&jpg&srcset";
-	import Image7 from "./7.jpeg?width=600;1200&webp&jpg&srcset";
 	import Image8 from "./8.jpeg?width=600;1200&webp&jpg&srcset";
 	import Image9 from "./9.jpg?width=600;1200&webp&jpg&srcset";
 	import Image10 from "./10.jpeg?width=600;1200&webp&jpg&srcset";

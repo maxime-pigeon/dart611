@@ -3,14 +3,14 @@
 
 	import GIF from "./modules.webp";
 	import Banner from "./banner.png?width=600;1200&webp&jpg&srcset";
-	import Image1 from "./1.jpg?width=600;1200&webp&jpg&srcset";
-	import Image2 from "./2.jpg?width=600;1200&webp&jpg&srcset";
-	import Image3 from "./3.jpg?width=600;1200&webp&jpg&srcset";
+	import Image1 from "./1.JPG?width=600;1200&webp&jpg&srcset";
+	import Image2 from "./2.JPG?width=600;1200&webp&jpg&srcset";
+	import Image3 from "./3.JPG?width=600;1200&webp&jpg&srcset";
 	import Image4 from "./4.png?width=600;1200&webp&jpg&srcset";
 	import Image5 from "./5.png?width=600;1200&webp&jpg&srcset";
-	import Image6 from "./6.jpg?width=600;1200&webp&jpg&srcset";
-	import Image7 from "./7.jpg?width=600;1200&webp&jpg&srcset";
-	import Image8 from "./8.jpg?width=600;1200&webp&jpg&srcset";
+	import Image6 from "./6.JPG?width=600;1200&webp&jpg&srcset";
+	import Image7 from "./7.JPG?width=600;1200&webp&jpg&srcset";
+	import Image8 from "./8.JPG?width=600;1200&webp&jpg&srcset";
 
 	const images = [
 		Image1,
