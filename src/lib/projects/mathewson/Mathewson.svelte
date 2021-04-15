@@ -2,6 +2,7 @@
 	import Slider from "../../components/Slider.svelte";
 
 	import GIF from "./modules.webp";
+	import GIF2 from "./modules.gif";
 	import Banner from "./banner.png?width=600;1200&webp&jpg&srcset";
 	import Image1 from "./01.jpg?width=600;1200&webp&jpg&srcset";
 	import Image2 from "./02.jpg?width=600;1200&webp&jpg&srcset";
@@ -24,7 +25,7 @@
 	];
 </script>
 
-<img src={GIF} alt="GIF" />
+<img srcset="{GIF2}, {GIF}" alt="GIF" />
 
 <p>
 	I am a tinkerer of ideas and methods. I seek serendipity through chance and

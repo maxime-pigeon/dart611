@@ -38,5 +38,6 @@
 	—Dr Miranda Smitheram, Professor of DART 611 Interdisciplinary Practices in
 	Design, Winter 2021, <a href="https://www.concordia.ca/finearts/design.html"
 		>Department of Design and Computation Arts</a
-	>, Concordia University.
+	>, Concordia University
 </p>
+<p>Website by Maxime Pigeon</p>

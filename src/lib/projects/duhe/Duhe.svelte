@@ -7,10 +7,10 @@
 	import Image4 from "./4.png?width=600;1200&webp&jpg&srcset";
 	import Image5 from "./5.gif";
 
-	const images = [Image1, Image2, Image3];
+	const images = [Image1, Image2, Image3, Image4];
 </script>
 
-<img srcset={Image4} alt="4" />
+<img src={Image5} alt="5" />
 <p>
 	Creating a typeface on a computer screen can sometimes limit creativity. The
 	digital workspace, the white window of the software, the two-dimensional
@@ -57,4 +57,3 @@
 		href="https://www.instagram.com/juliette.duhe/?hl=en">@juliette.duhe</a
 	>
 </p>
-<img src={Image5} alt="5" />
