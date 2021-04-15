@@ -31,6 +31,8 @@
 
 	img + img {
 		position: absolute;
+		object-fit: contain;
+		max-height: 100%;
 	}
 
 	.active {
