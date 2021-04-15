@@ -1,10 +1,10 @@
 <script>
-	import Image1 from "./1.png?width=600;1200&webp&jpg&srcset";
-	import Image2 from "./2.png?width=600;1200&webp&jpg&srcset";
-	import Image3 from "./3.jpg?width=600;1200&webp&jpg&srcset";
-	import Image4 from "./4.jpg?width=600;1200&webp&jpg&srcset";
-	import Image5 from "./5.png?width=600;1200&webp&jpg&srcset";
-	import Image6 from "./6.png?width=600;1200&webp&jpg&srcset";
+	import Image1 from "./1.png?width=600;1200&jpg&srcset";
+	import Image2 from "./2.png?width=600;1200&jpg&srcset";
+	import Image3 from "./3.jpg?width=600;1200&jpg&srcset";
+	import Image4 from "./4.jpg?width=600;1200&jpg&srcset";
+	import Image5 from "./5.png?width=600;1200&jpg&srcset";
+	import Image6 from "./6.png?width=600;1200&jpg&srcset";
 </script>
 
 <style>

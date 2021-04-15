@@ -1,11 +1,11 @@
 <script>
 	import Slider from "../../components/Slider.svelte";
 
-	import Image1 from "./1.jpg?width=600;1200&webp&jpg&srcset";
-	import Image2 from "./2.jpg?width=600;1200&webp&jpg&srcset";
-	import Image3 from "./3.jpg?width=600;1200&webp&jpg&srcset";
-	import Image4 from "./4.jpg?width=600;1200&webp&jpg&srcset";
-	import Image5 from "./5.jpg?width=600;1200&webp&jpg&srcset";
+	import Image1 from "./1.jpg?width=600;1200&jpg&srcset";
+	import Image2 from "./2.jpg?width=600;1200&jpg&srcset";
+	import Image3 from "./3.jpg?width=600;1200&jpg&srcset";
+	import Image4 from "./4.jpg?width=600;1200&jpg&srcset";
+	import Image5 from "./5.jpg?width=600;1200&jpg&srcset";
 
 	const images = [Image1, Image2, Image3, Image4, Image5];
 </script>

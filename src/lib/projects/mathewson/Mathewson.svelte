@@ -3,15 +3,15 @@
 
 	import GIF from "./modules.webp";
 	import GIF2 from "./modules.gif";
-	import Banner from "./banner.png?width=600;1200&webp&jpg&srcset";
-	import Image1 from "./01.jpg?width=600;1200&webp&jpg&srcset";
-	import Image2 from "./02.jpg?width=600;1200&webp&jpg&srcset";
-	import Image3 from "./03.jpg?width=600;1200&webp&jpg&srcset";
-	import Image4 from "./04.png?width=600;1200&webp&jpg&srcset";
-	import Image5 from "./05.png?width=600;1200&webp&jpg&srcset";
-	import Image6 from "./06.jpg?width=600;1200&webp&jpg&srcset";
-	import Image7 from "./07.jpg?width=600;1200&webp&jpg&srcset";
-	import Image8 from "./08.jpg?width=600;1200&webp&jpg&srcset";
+	import Banner from "./banner.png?width=600;1200&jpg&srcset";
+	import Image1 from "./01.jpg?width=600;1200&jpg&srcset";
+	import Image2 from "./02.jpg?width=600;1200&jpg&srcset";
+	import Image3 from "./03.jpg?width=600;1200&jpg&srcset";
+	import Image4 from "./04.png?width=600;1200&jpg&srcset";
+	import Image5 from "./05.png?width=600;1200&jpg&srcset";
+	import Image6 from "./06.jpg?width=600;1200&jpg&srcset";
+	import Image7 from "./07.jpg?width=600;1200&jpg&srcset";
+	import Image8 from "./08.jpg?width=600;1200&jpg&srcset";
 
 	const images = [
 		Image1,
@@ -25,7 +25,7 @@
 	];
 </script>
 
-<img srcset="{GIF2}, {GIF}" alt="GIF" />
+<img src={GIF2} srcset={GIF} alt="GIF" />
 
 <p>
 	I am a tinkerer of ideas and methods. I seek serendipity through chance and
