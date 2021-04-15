@@ -12,6 +12,10 @@ a {
 	color: black;
 }
 
+i {
+	font-style: italic;
+}
+
 img,
 video {
 	box-sizing: border-box;

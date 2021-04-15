@@ -1,26 +1,56 @@
-<img src="3.png" alt="3" />
+<script>
+	import Image1 from "./1.jpg?width=600;1200&webp&jpg&srcset";
+	import Image2 from "./2.jpg?width=600;1200&webp&jpg&srcset";
+	import Image3 from "./3.jpg?width=600;1200&webp&jpg&srcset";
+	import Image4 from "./4.jpg?width=600;1200&webp&jpg&srcset";
+</script>
+
+<img srcset={Image1} alt="Image1" />
+
 <p>
-	The premise of this project starts as a critique of architectural drawings.
-	It is framed around the idea that the current modes of representation from
-	the field are unable to convey the temporality of buildings. For example,
-	Bruno Latour and Albena Yaneva write about the need that we have for a
-	device that would transform the static view of a building into a sequence of
-	fix frames informing us about the continuous flow from which a building is
-	always constituted. Since buildings are usually represented, after the fact
-	by a regime of idealized images—mostly photographic or pseudo-realistic
-	rendering—this criticism makes us think about ways to represent buildings in
-	all their complexity and through all their life cycle.
+	This project, TEMPORAL FIBER, looks into the subject matter of the typical
+	architectural drawing and its functioning. It studies its ‘notational’ and
+	‘referential’ characteristics, or, in other words, how it uses a codified
+	language to create a ‘representational experience’ of a targeted object.
+	Such drawings create a fictional representation in the mind of the observer,
+	which cannot correspond to the lived experience of the existing artifact.
+	TEMPORAL FIBER questions the composition of common architectural drawings
+	and tries to reduce the gap between the represented object and the actual
+	building by rendering the fourth dimension: the <i>time</i>.
 </p>
+
+<img srcset={Image2} alt="Image2" />
+
 <p>
-	Yaneva continues this reflection by asserting that “buildings are never
-	immobile, still, stationary and put in space. As soon as you interact with
-	it a complete qualitative impression emanates. A building can be understood
-	only in a cumulative series of repetitive interactions that introduce its
-	most enriching and defining features. There is a continuous building up of
-	the architectural object”. This quote brings forward another important
-	aspect of my project, which is to highlight how important is the observation
-	and the engagement with a particular building for one to construct a
-	relevant critique or a thoughtful portrait of it. In this project, the act
-	of drawing will be involved in two moments to enhance the faculty to
-	articulate and understand the case being studied.
+	The main objective of this prototype is to incorporate traces of temporality
+	into the static representation, in that case, of a Montreal apartment. It
+	asks: how can we illustrate the passage of time through the architectural
+	space and its physical component by using the paper-space? Many techniques
+	are explored to conduct this experiment, mainly borrowing from the media of
+	writing, mapping, comics and infographics. To accomplish that conceptual
+	inquiry, this (re)model of the studied apartment presents itself as a
+	semi-flat/semi-tridimensional maquette combining both the art of printing
+	and origami to articulate a visual language defying traditional
+	architectural drawings.
 </p>
+
+<img srcset={Image3} alt="Image3" />
+
+<p>
+	The visual experiments, embodied by the cyan ink in the drawing, fall into
+	three categories (and the intersection between them). In the scope of this
+	project, I named these three approaches for telling narratives as such:
+	<i>illustrative</i>, <i>annotative</i> and <i>mapping</i>.
+</p>
+
+<p>
+	TEMPORAL FIBER uses the automatic tools of <i>ink-jet printing</i> and
+	<i>digitally controlled cutting</i> to design an efficient workflow replicable
+	at different scales. The tridimensional model allows the viewer to perceive spaces,
+	openings, natural light and the articulation of the rooms, without requiring
+	the use of perspective or axonometric drawings. Since the model can be dismantled
+	and is made of papery fiber, it embodies the temporality and the ephemerality
+	that this project attempts to study in the built environment.
+</p>
+
+<img srcset={Image4} alt="Image4" />

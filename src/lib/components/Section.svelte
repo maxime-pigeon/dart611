@@ -16,7 +16,7 @@
 			component: Mathewson,
 		},
 		{
-			title: "William Couture: BUILDING THROUGH THE WINDOW",
+			title: "William Couture: TEMPORAL FIBER",
 			component: Couture,
 		},
 		{

@@ -1,9 +1,13 @@
 <script>
+	import Slider from "../../components/Slider.svelte";
+
 	import Image1 from "./1.png?width=600;1200&webp&jpg&srcset";
 	import Image2 from "./2.png?width=600;1200&webp&jpg&srcset";
 	import Image3 from "./3.png?width=600;1200&webp&jpg&srcset";
 	import Image4 from "./4.png?width=600;1200&webp&jpg&srcset";
 	import Image5 from "./5.gif";
+
+	const images = [Image1, Image2, Image3];
 </script>
 
 <img srcset={Image4} alt="4" />
@@ -35,9 +39,7 @@
 	to pair, of tension, to bounce—and aims to exploit the potential of the
 	material and physical properties for the creation of a typeface.
 </p>
-<img srcset={Image1} alt="1" />
-<img srcset={Image2} alt="2" />
-<img srcset={Image3} alt="3" />
+<Slider {images} />
 <p>
 	The documentation of the process is displayed on three posters, each one
 	representing a specific work step. The first consists in the manipulation of
