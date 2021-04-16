@@ -8,6 +8,10 @@
 </script>
 
 <style>
+	span {
+		font-weight: bold;
+	}
+
 	#plants {
 		color: green;
 	}

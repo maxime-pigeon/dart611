@@ -5,6 +5,7 @@
 	import Zemke from "../projects/zemke/Zemke.svelte";
 	import Kamal from "../projects/kamal/Kamal.svelte";
 	import Mathewson from "../projects/mathewson/Mathewson.svelte";
+	import Smart from "../projects/smart/Smart.svelte";
 
 	import About from "../projects/About.svelte";
 
@@ -34,6 +35,10 @@
 		{
 			title: "Dina Kamal: THE VALUE OF NATURE",
 			component: Kamal,
+		},
+		{
+			title: "Harley Smart: DEEP LEARNING DESCRIBES BOOKWORKS",
+			component: Smart,
 		},
 	];
 
