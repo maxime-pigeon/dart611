@@ -9,7 +9,7 @@ body {
 }
 
 a {
-	color: black;
+	color: blue;
 }
 
 i {
@@ -17,7 +17,8 @@ i {
 }
 
 img,
-video {
+video,
+iframe {
 	box-sizing: border-box;
 	width: 100%;
 	margin: 1rem auto;

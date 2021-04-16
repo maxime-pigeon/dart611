@@ -6,8 +6,32 @@
 	import Image3 from "./3.jpg?width=600;1200&jpg&srcset";
 	import Image4 from "./4.jpg?width=600;1200&jpg&srcset";
 	import Image5 from "./5.jpg?width=600;1200&jpg&srcset";
+	import Image6 from "./6.jpg?width=600;1200&jpg&srcset";
+	import Image7 from "./7.jpg?width=600;1200&jpg&srcset";
+	import Image8 from "./8.jpg?width=600;1200&jpg&srcset";
+	import Image9 from "./9.jpg?width=600;1200&jpg&srcset";
+	import Image10 from "./10.jpg?width=600;1200&jpg&srcset";
+	import Image11 from "./11.jpg?width=600;1200&jpg&srcset";
+	import Image12 from "./12.jpg?width=600;1200&jpg&srcset";
+	import Image13 from "./13.jpg?width=600;1200&jpg&srcset";
+	import Image14 from "./14.jpg?width=600;1200&jpg&srcset";
 
-	const images = [Image1, Image2, Image3, Image4, Image5];
+	const images = [
+		Image1,
+		Image2,
+		Image3,
+		Image4,
+		Image5,
+		Image6,
+		Image7,
+		Image8,
+		Image9,
+		Image10,
+		Image11,
+		Image12,
+		Image13,
+		Image14,
+	];
 </script>
 
 <Slider {images} />
@@ -26,16 +50,14 @@
 	quite content to end his paragraph with the now famous oxymoronic formula, a
 	formula that means both everything and nothing, and on which desperate
 	graduate students will write countless theses, guaranteeing his eternal
-	popularity as measured by <a href="https://scholar.google.ca"
-		>Google Scholar</a
-	> citations rankings.
+	popularity.
 </p>
 <p>
-	Well, this project is an attempt to weave (or unweave?) my own carpet, with
-	the aim of understanding and enacting (or understanding by enacting) the
-	essay’s unmethodical method. The resulting pilgrimage-in-the-form-of-a-book,
-	which will comprise a collection of eclectic voices that reflect both
-	directly and indirectly on Adorno’s formula, is dedicated to my dear
-	partners in misfortune, my fellow readers of arcane philosophy, in hopes of
-	allowing them, too, to understand whatever our German friend means.
+	This project is an attempt to weave (or unweave?) my own carpet, with the
+	aim of understanding and enacting (or understanding by enacting) the essay’s
+	unmethodical method. The resulting pilgrimage-in-the-form-of-a-book,
+	comprising a collection of eclectic voices that reflect both directly and
+	indirectly on Adorno’s formula, is dedicated to my dear partners in
+	misfortune, my fellow readers of arcane philosophy, in hopes of allowing
+	them, too, to understand whatever our German friend means.
 </p>
