@@ -1,26 +1,50 @@
+<script>
+	import Image1 from "./1.png?width=600;1200&png&srcset";
+	import Image2 from "./2.png?width=600;1200&png&srcset";
+	import Image4 from "./4.png?width=600;1200&png&srcset";
+	import Image5 from "./5.png?width=600;1200&png&srcset";
+	import Image6 from "./6.png?width=600;1200&png&srcset";
+</script>
+
 <style>
-	iframe {
+	img {
+		margin: 0 auto;
+	}
+
+	a {
+		display: inline-block;
+		margin: 1rem 0;
+	}
+
+	/* iframe {
 		width: 100%;
 		height: 92vh;
-	}
+	} */
 </style>
 
-<iframe
-	src="https://hybrid.concordia.ca/a_ouza/countless/"
-	frameborder="0"
-	title="COUNTLESS"
-/>
+<a
+	href="https://hybrid.concordia.ca/a_ouza/countless/index.html"
+	target="blank"
+>
+	<img srcset={Image1} alt="Image1" />
+</a>
 
 <p>What information can numbers communicate?</p>
 
 <p>
-	<a href="https://hybrid.concordia.ca/a_ouza/countless/index.html"
-		>COUNTLESS</a
-	> is a project in the realm of information design, typography, interaction and
-	web design, that investigates what stories numbers carry and communicate. What
-	is hidden behind a sole numeral? What meanings and significances it carries?
-	Do you have numbers that are part of your story and that help situate your positionality?
+	COUNTLESS is a project in the realm of information design, typography,
+	interaction and web design, that investigates what stories numbers carry and
+	communicate. What is hidden behind a sole numeral? What meanings and
+	significances it carries? Do you have numbers that are part of your story
+	and that help situate your positionality?
 </p>
+
+<a
+	href="https://hybrid.concordia.ca/a_ouza/countless/index.html"
+	target="blank"
+>
+	<img srcset={Image2} alt="Image2" />
+</a>
 
 <p>
 	It is a project to explore personal or collective connotations and
@@ -44,6 +68,13 @@
 	communication, empathy and effectiveness of numbers.
 </p>
 
+<a
+	href="https://hybrid.concordia.ca/a_ouza/countless/index.html"
+	target="blank"
+>
+	<img srcset={Image4} alt="Image4" />
+</a>
+
 <p>
 	The project is an online web-based platform that uses a sole numeral as the
 	main interface, with the story connected to it hidden on a separate, hidden
@@ -56,12 +87,26 @@
 	and will be shown to the audience on the interface being designed.
 </p>
 
+<a
+	href="https://hybrid.concordia.ca/a_ouza/countless/index.html"
+	target="blank"
+>
+	<img srcset={Image5} alt="Image5" />
+</a>
+
 <p>
 	The user interface should allow for the stories behind the numerals to be
 	revealed upon navigation on this website, but they will remain covered for
 	the main part—uncovering it will require active, engaged participation of
 	the audience.
 </p>
+
+<a
+	href="https://hybrid.concordia.ca/a_ouza/countless/index.html"
+	target="blank"
+>
+	<img srcset={Image6} alt="Image6" />
+</a>
 
 <p>
 	Being an open project, it is meant to be a scaffold for data to be input by
@@ -70,3 +115,9 @@
 	various levels, public and private, hopes to achieve an empathic connection
 	with the public that is invited to see and engage with the work.
 </p>
+
+<!-- <iframe
+	src="https://hybrid.concordia.ca/a_ouza/countless/"
+	frameborder="0"
+	title="COUNTLESS"
+/> -->

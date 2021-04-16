@@ -8,6 +8,7 @@
 	import Smart from "../projects/smart/Smart.svelte";
 	import Bustamante from "../projects/bustamante/Bustamante.svelte";
 	import Beauchesne from "../projects/beauchesne/Beauchesne.svelte";
+	import Gorner from "../projects/gorner/Gorner.svelte";
 
 	import About from "../projects/About.svelte";
 
@@ -15,8 +16,12 @@
 
 	const options = [
 		{
-			title: "Alec Mathewson: CUT, CREATE, TRIANGULATE",
-			component: Mathewson,
+			title: "Antoine Beauchesne: LUDOPEDIA",
+			component: Beauchesne,
+		},
+		{
+			title: "Alexandre Bustamante: COUNTLESS",
+			component: Bustamante,
 		},
 		{
 			title: "William Couture: TEMPORAL FIBER",
@@ -27,28 +32,28 @@
 			component: Duhe,
 		},
 		{
-			title: "Maxime Pigeon: METHODICALLY UNMETHODICALLY",
-			component: Pigeon,
-		},
-		{
-			title: "Larissa Zemke: CARING MASKS",
-			component: Zemke,
+			title: "Emily Gorner: PALLIATIVE CARE FOR THE END OF TIMES",
+			component: Gorner,
 		},
 		{
 			title: "Dina Kamal: THE VALUE OF NATURE",
 			component: Kamal,
 		},
 		{
+			title: "Alec Mathewson: CUT, CREATE, TRIANGULATE",
+			component: Mathewson,
+		},
+		{
+			title: "Maxime Pigeon: METHODICALLY UNMETHODICALLY",
+			component: Pigeon,
+		},
+		{
 			title: "Harley Smart: DEEP LEARNING DESCRIBES BOOKWORKS",
 			component: Smart,
 		},
 		{
-			title: "Alexandre Bustamante: COUNTLESS",
-			component: Bustamante,
-		},
-		{
-			title: "Antoine Beauchesne: LUDOPEDIA",
-			component: Beauchesne,
+			title: "Larissa Zemke: CARING MASKS",
+			component: Zemke,
 		},
 	];
 
