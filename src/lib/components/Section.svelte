@@ -9,6 +9,8 @@
 	import Bustamante from "../projects/bustamante/Bustamante.svelte";
 	import Beauchesne from "../projects/beauchesne/Beauchesne.svelte";
 	import Gorner from "../projects/gorner/Gorner.svelte";
+	import Salimi from "../projects/salimi/Salimi.svelte";
+	import Weller from "../projects/weller/Weller.svelte";
 
 	import About from "../projects/About.svelte";
 
@@ -48,8 +50,17 @@
 			component: Pigeon,
 		},
 		{
+			title:
+				"Hosna Salimi: DEVELOPING A CULTURE TRAINING PLATFORM FOR SOJOURNERS",
+			component: Salimi,
+		},
+		{
 			title: "Harley Smart: DEEP LEARNING DESCRIBES BOOKWORKS",
 			component: Smart,
+		},
+		{
+			title: "Lindsay Weller: [ANTI-SOD] EXPLORING MYCELIAL MESH METHODS",
+			component: Weller,
 		},
 		{
 			title: "Larissa Zemke: CARING MASKS",
