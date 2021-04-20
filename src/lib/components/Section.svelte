@@ -57,7 +57,7 @@
 		},
 		{
 			title:
-				"Sanjana Shivakuma: REDESIGNING THE DINING EXPERIENCE DURING A PANDEMIC",
+				"Sanjana Shivakumar: REDESIGNING THE DINING EXPERIENCE DURING A PANDEMIC",
 			component: Shivakumar,
 		},
 		{
