@@ -12,6 +12,7 @@
 	import Salimi from "../projects/salimi/Salimi.svelte";
 	import Weller from "../projects/weller/Weller.svelte";
 	import Shivakumar from "../projects/shivakumar/Shivakumar.svelte";
+	import Farzamfar from "../projects/farzamfar/Farzamfar.svelte";
 
 	import About from "../projects/About.svelte";
 
@@ -37,6 +38,10 @@
 		{
 			title: "Emily Gorner: PALLIATIVE CARE FOR THE END OF TIMES",
 			component: Gorner,
+		},
+		{
+			title: "Golriz Farzamfar: HOSPITAL BED SIDE-RAIL COVER",
+			component: Farzamfar,
 		},
 		{
 			title: "Dina Kamal: THE VALUE OF NATURE",
