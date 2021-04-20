@@ -11,6 +11,7 @@
 	import Gorner from "../projects/gorner/Gorner.svelte";
 	import Salimi from "../projects/salimi/Salimi.svelte";
 	import Weller from "../projects/weller/Weller.svelte";
+	import Shivakumar from "../projects/shivakumar/Shivakumar.svelte";
 
 	import About from "../projects/About.svelte";
 
@@ -53,6 +54,11 @@
 			title:
 				"Hosna Salimi: DEVELOPING A CULTURE TRAINING PLATFORM FOR SOJOURNERS",
 			component: Salimi,
+		},
+		{
+			title:
+				"Sanjana Shivakuma: REDESIGNING THE DINING EXPERIENCE DURING A PANDEMIC",
+			component: Shivakumar,
 		},
 		{
 			title: "Harley Smart: DEEP LEARNING DESCRIBES BOOKWORKS",
