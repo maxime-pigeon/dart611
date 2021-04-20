@@ -15,7 +15,7 @@
 	const images2 = [Image5, Image6, Image7];
 </script>
 
-<img srcset={Image1} alt="Image1" />
+<img src="/1.jpg" alt="Image1" />
 <img srcset={Image2} alt="Image2" />
 
 <p>
