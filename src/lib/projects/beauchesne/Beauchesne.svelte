@@ -15,6 +15,7 @@
 	const images2 = [Image5, Image6, Image7];
 </script>
 
+<video src="/1.mp4" controls />
 <img src="/1.jpg" alt="Image1" />
 <img srcset={Image2} alt="Image2" />
 
