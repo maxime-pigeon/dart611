@@ -1,16 +1,5 @@
 <script>
-	import Pigeon from "../projects/pigeon/Pigeon.svelte";
-	import Duhe from "../projects/duhe/Duhe.svelte";
-	import Couture from "../projects/couture/Couture.svelte";
-	import Zemke from "../projects/zemke/Zemke.svelte";
-	import Kamal from "../projects/kamal/Kamal.svelte";
-	import Mathewson from "../projects/mathewson/Mathewson.svelte";
-	import Smart from "../projects/smart/Smart.svelte";
-	import Bustamante from "../projects/bustamante/Bustamante.svelte";
 	import Beauchesne from "../projects/beauchesne/Beauchesne.svelte";
-	import Gorner from "../projects/gorner/Gorner.svelte";
-	import Salimi from "../projects/salimi/Salimi.svelte";
-	import Weller from "../projects/weller/Weller.svelte";
 
 	import About from "../projects/About.svelte";
 
