@@ -1,10 +1,20 @@
 <script>
-	import Image1 from "./1.png?width=600;1200&png&srcset";
-	import Image2 from "./2.png?width=600;1200&png&srcset";
+	import Slider from "../../components/Slider.svelte";
+
+	import Image1 from "./1.jpg?width=600;1200&png&srcset";
+	import Image2 from "./2.jpg?width=600;1200&jpg&srcset";
 	import Image3 from "./3.jpg?width=600;1200&jpg&srcset";
 	import Image4 from "./4.jpg?width=600;1200&jpg&srcset";
-	import Image5 from "./5.png?width=600;1200&png&srcset";
-	import Image6 from "./6.png?width=600;1200&png&srcset";
+	import Image5 from "./5.jpg?width=600;1200&jpg&srcset";
+
+	import c1 from "./c1.png?width=600;1200&png&srcset";
+	import c2 from "./c2.png?width=600;1200&png&srcset";
+	import c3 from "./c3.png?width=600;1200&png&srcset";
+	import c4 from "./c4.png?width=600;1200&png&srcset";
+	import c5 from "./c5.png?width=600;1200&png&srcset";
+
+	const images = [c1, c2, c3, c4, c5];
+	const images1 = [Image1, Image3];
 </script>
 
 <style>
@@ -33,7 +43,7 @@
 	}
 </style>
 
-<img srcset={Image4} alt="Image4" />
+<Slider images={images1} />
 
 <p>
 	People spend their lives trying to make money, a representation of value,
@@ -47,7 +57,7 @@
 	already valuable, natural, raw materials.
 </p>
 
-<img srcset={Image1} alt="Image1" />
+<img srcset={Image2} alt="Image2" />
 
 <p>
 	The creation process documents the making of a tangible piece of paper; art
@@ -56,7 +66,7 @@
 	perhaps provoke thought and discussion around the topic.
 </p>
 
-<img srcset={Image2} alt="Image2" />
+<Slider {images} />
 
 <p>
 	To put the topic in context, according to McMahan, PhD. of behavioral and
@@ -71,8 +81,6 @@
 	is room for growth, to move towards more human/nature connectedness, to
 	invest in it and to increase its value.
 </p>
-
-<img srcset={Image5} alt="Image5" />
 
 <p>
 	The project focuses on the bills of money that each represent one of the
@@ -89,7 +97,7 @@
 	through windows.
 </p>
 
-<img srcset={Image6} alt="Image6" />
+<img srcset={Image4} alt="Image4" />
 
 <p>
 	Natures’ benefits and value for humans is invisible and intangible, yet are
@@ -97,4 +105,4 @@
 	symbolic tangibility of the value of nature.
 </p>
 
-<img srcset={Image3} alt="Image3" />
+<img srcset={Image5} alt="Image5" />
